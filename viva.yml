@@ -1,0 +1,22 @@
+version: 1
+
+repos:
+  fromTemplate: HSG-DS-HS26/BCS-DS-Assignment-4
+
+goals:
+  - id: lamport-vs-vector
+    level: analyse
+    goal: >
+      Compare Lamport clocks and vector clocks, and explain their strengths and limitations in determining the potential causal relationships between events.
+  - id: lamport-chat
+    level: apply
+    goal: >
+      Implement a chat application that computes the Lamport clocks of messages.
+  - id: vector-chat
+    level: apply
+    goal: >
+      Implement a chat application using vector clocks, to enable causal ordering of messages.
+  - id: causality
+    level: understand
+    goal: >
+      Explain how logical clocks are related to causality and the happened-before relation in distributed systems.

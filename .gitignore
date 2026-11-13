@@ -1,0 +1,5 @@
+.idea/
+tasks/.gradle/
+tasks/app/build/
+build/
+.gradle/
